@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a push event."
+      - name: Check out repository code
+        uses: actions/checkout@v4
       - run: ls -la
       - run: npm install
       - run: npm run test
