@@ -1,12 +1,12 @@
 {
-  "name": "plantilla",
+  "name": "entrega_1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "entrega1.js",
   "scripts": {
     "test": "npx jest",
     "prettier-format": "npx prettier --config .prettierrc 'src/**/*.ts' --write",
-    "dev:watcher": "npx nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "dev:watcher": "npx nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/entrega.ts",
     "dev:run": "npx ts-node src/index.ts",
     "build": "npx tsc"
   },

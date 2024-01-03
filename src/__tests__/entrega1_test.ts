@@ -1,4 +1,10 @@
-import { Task, TaskList } from './entrega1.js';
+import Task from "../entrega_1/task";
+import TaskList from "../entrega_1/task_list";
+
+test('should  create an empty list', () => {
+  const taskList = new TaskList();
+  expect(taskList.getTaskList()).toEqual([]);
+});
 
 test('should add a task to the list', () => {
   const taskList = new TaskList();
