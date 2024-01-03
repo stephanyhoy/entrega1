@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a push event."
+      - run: ls -la
       - run: npm install
       - run: npm run test
